@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --verde-barra:#8BAF83;
+    --verde-paginas:#A7C4A1;
+    --verde-letras:#31572C;
+    --branco: #ffffff;
+    --cinza-claro: #d3d3d3;
+}
+
+body {
+    background-color: var(--verde-paginas);
+}
+
+header {
+    background-color: var(--verde-barra);
+    color: var(--verde-letras);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.conteudo {
+    background-color:var(--verde-barra);
+    border: none;
+    color: var(--verde-letras);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.conteudo:hover {
+    background-color: var(--verde-paginas);
+}
+
+.jogos {
+    background-color: var(--verde-barra);
+    border: none;
+    color: var(--verde-letras);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.jogos:hover {
+    background-color: var(--verde-paginas);
+}
+
+.integrantes {
+    background-color: var(--verde-barra);
+    border: none;
+    color: var(--verde-letras);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.integrantes:hover {
+    background-color: var(--verde-paginas);
+}
+
+.ajuda {
+    background-color: var(--verde-barra);
+    border: none;
+    color: var(--verde-letras);
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.ajuda:hover {
+    background-color: var(--verde-paginas);
+}
+
+.Login {
+    background-color: var(--verde-barra);
+    border: 10px;
+    color: var(--verde-letras);
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.Login img{
+    width: 40px;
+    height: 40px;
+}
+
+.bio{
+    background-color: var(--verde-barra);
+    border: 10px;
+    color: var(--verde-letras);
+    padding: 10px 10px;
+    font-size: 35px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+button {
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.botao_facil {
+    padding: 10px 20px;
+    height: 100px;
+    width: 100px;
+    font-size: 16px;
+    border-color: var(--verde-barra);
+    border-style: double;
+    border-radius: 30px;
+    background-color: var(--cinza-claro);
+    color: var(--verde-letras);
+    cursor: pointer;
+    transition: backgroud-color 0.3s, transform 0.2s;
+}
+
+.botao_facil:focus {
+    outline: none;
+}
+
+.botao_facil:active {
+    background-color: var(--verde-barra);
+    transform: scale(0.98);
+}
+
+.botao_facil:hover {
+    background-color: var(--verde-barra);
+}
+
+.botao_medio {
+    padding: 10px 20px;
+    height: 100px;
+    width: 100px;
+    font-size: 16px;
+    border-color: var(--verde-barra);
+    border-style: double;
+    border-radius: 30px;
+    background-color: var(--cinza-claro);
+    color: var(--verde-letras);
+    cursor: pointer;
+    transition: backgroud-color 0.3s, transform 0.2s;
+}
+
+.botao_medio:focus {
+    outline: none;
+}
+
+.botao_medio:active {
+    background-color: var(--verde-barra);
+    transform: scale(0.98);
+}
+
+.botao_medio:hover {
+    background-color: var(--verde-barra);
+}
+
+
+.botao_dificil {
+    padding: 10px 20px;
+    height: 100px;
+    width: 100px;
+    font-size: 16px;
+    border-color: var(--verde-barra);
+    border-style: double;
+    border-radius: 30px;
+    background-color: var(--cinza-claro);
+    color: var(--verde-letras);
+    cursor: pointer;
+    transition: backgroud-color 0.3s, transform 0.2s;
+}
+
+.botao_dificil:focus {
+    outline: none;
+}
+
+.botao_dificil:active {
+    background-color: var(--verde-barra);
+    transform: scale(0.98);
+}
+
+.botao_dificil:hover {
+    background-color: var(--verde-barra);
+}
+
+ 
+main {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+}
+
+main.fundo {
+    background-color: var(--cinza-claro);
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+    height: 30vh;
+}
+
+main.facil {
+    justify-content: center;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
