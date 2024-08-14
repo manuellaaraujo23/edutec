@@ -2,6 +2,7 @@
     --verde-barra:#8BAF83;
     --verde-paginas:#A7C4A1;
     --verde-letras:#31572C;
+    --branco-fundo:#F6F6E9;
 }
 
 body {
@@ -20,9 +21,7 @@ header {
     align-items: center;
 }
 
-header .logo_icone img {
-    width: 60px;
-}
+
 
 header button {
     background-color: transparent;
@@ -49,7 +48,7 @@ header button img {
 
 .boas_vindas {
     background-color: #F6F6E9;
-    height: 750px;
+    height: 700px;
     margin: 20px;
     padding: 30px;
     border-radius: 15px;
@@ -72,7 +71,10 @@ header button img {
     align-items: start;
     padding-right: 2px;
     
+
+     
 }
+
 
 .boas_vindas button {
     background-color: var(--verde-barra);
@@ -83,7 +85,6 @@ header button img {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    margin-right: 20px;
     align-items: start;
 }
 
@@ -91,12 +92,17 @@ header button img {
     background-color: var(--verde-paginas);
 }
 
+
 .boas_vindas img {
-    width: 130px 8px;
-  align-items: self-start;  
+    width: 130px 2px;
+  align-items: self-start;
+    
+    
 }
+
 
 div{
   display: flex;
   justify-content: space-between;
+
 }

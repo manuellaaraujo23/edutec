@@ -10,12 +10,14 @@
     --verde-letras:#31572C;
     --branco: #ffffff;
     --cinza-claro: #d3d3d3;
+    --branco-fundo:#F6F6E9;
+
 }
 
 body {
 height: 100vh;
 margin: 0;
-background: linear-gradient(to bottom, #A7C4A1 70%, #d3d3d3 30%);
+background: linear-gradient(to bottom, #A7C4A1 70%, var(--branco-fundo) 20%);
 }
 
 header {
@@ -133,9 +135,10 @@ button {
     border: none;
     border-radius: 10px;
     background-color: var(--verde-letras);
-    color: var(--cinza-claro);
+    color: var(--branco-fundo);
     cursor: pointer;
     transition: backgroud-color 0.3s, transform 0.2s;
+    
     
     
     
@@ -153,7 +156,7 @@ button {
     border-color: var(--verde-barra);
     border-style: double;
     border-radius: 30px;
-    background-color: var(--cinza-claro);
+    background-color: var(--branco-fundo);
     color: var(--verde-letras);
     cursor: pointer;
     transition: backgroud-color 0.3s, transform 0.2s;
@@ -178,7 +181,7 @@ button {
     border: none;
     border-radius: 10px;
     background-color: var(--verde-letras);
-    color: var(--cinza-claro);
+    color: var(--branco-fundo);
     cursor: pointer;
     transition: backgroud-color 0.3s, transform 0.2s;
 }
@@ -195,7 +198,7 @@ button {
     border-color: var(--verde-barra);
     border-style: double;
     border-radius: 30px;
-    background-color: var(--cinza-claro);
+    background-color: var(--branco-fundo);
     color: var(--verde-letras);
     cursor: pointer;
     transition: backgroud-color 0.3s, transform 0.2s;
@@ -220,7 +223,7 @@ button {
     border: none;
     border-radius: 10px;
     background-color: var(--verde-letras);
-    color: var(--cinza-claro);
+    color: var(--branco-fundo);
     cursor: pointer;
     transition: backgroud-color 0.3s, transform 0.2s;
 }
@@ -238,7 +241,7 @@ button {
     border-color: var(--verde-barra);
     border-style: double;
     border-radius: 30px;
-    background-color: var(--cinza-claro);
+    background-color: var(--branco-fundo);
     color: var(--verde-letras);
     cursor: pointer;
     transition: backgroud-color 0.3s, transform 0.2s;
@@ -266,7 +269,7 @@ main {
 }
 
 main.fundo {
-    background-color: var(--cinza-claro);
+    background-color: var(--branco-fundo);
     justify-content: center;
     display: flex;
     margin-top: 30px;
