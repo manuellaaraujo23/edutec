@@ -14,20 +14,7 @@
 
 }
 
-body {
-height: 100vh;
-margin: 0;
-background: linear-gradient(to bottom, #A7C4A1 70%, var(--branco-fundo) 20%);
-}
-
-header {
-    background-color: var(--verde-barra);
-    color: var(--verde-letras);
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+c
 
 .conteudo {
     background-color:var(--verde-barra);
@@ -262,7 +249,7 @@ button {
 
  
 main {
-    margin-top: 40px;
+    margin-top: 200px;
     display: flex;
     justify-content: center;
     height: 40vh;
@@ -287,16 +274,7 @@ main.facil {
     justify-content: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.logo_icone img {
+    height: 80px;
+    width: 80px;
+}

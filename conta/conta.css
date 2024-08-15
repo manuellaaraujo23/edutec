@@ -1,7 +1,4 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 
 
@@ -126,28 +123,30 @@ button {
 body {
     font-family: 'Arial', sans-serif;
     background-color: var(--verde-paginas);
-    margin: 0;
+  
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 200vh;
+   
 }
 
 header {
     width: 100%;
     background-color: var(--verde-barra);
     color: var(--verde-letras);
-    display: flex;
+    unicode-bidi: isolate;
     justify-content: space-around;
     align-items: center;
     padding: 10px 0;
+    display: block;
 }
 
 header button {
     background-color: transparent;
     border: none;
-    color: white;
+    color: var(--branco-fundo);
     font-size: 16px;
     cursor: pointer;
 }
@@ -162,12 +161,13 @@ header .Login img {
 }
 
 main {
-    background-color: #e9f0e7;
+    background-color: var(--verde-paginas);
     padding: 40px;
-    border-radius: 10px;
+
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     width: 400px;
     text-align: center;
+  
 }
 
 h1 {
@@ -181,6 +181,13 @@ p {
     color: #3c6e47;
     margin-bottom: 20px;
 }
+
+form {
+    margin: 0 auto; /* Centraliza o formulário */
+    padding: 0; /* Remove qualquer padding */
+    max-width: 400px; /* Define uma largura máxima para o formulário */
+}
+
 
 form {
     display: flex;
@@ -244,3 +251,19 @@ form button:hover {
 .cadastro button:hover {
     opacity: 0.9;
 }
+
+.container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente ao centro */
+}
+
+.container img {
+    max-width: 300px; /* Define um tamanho máximo para a imagem */
+    margin-right: 20px; /* Espaço entre a imagem e o texto */
+}
+
+.text {
+    max-width: 600px;
+}
+
+

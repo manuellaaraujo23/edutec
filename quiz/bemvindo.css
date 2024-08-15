@@ -5,20 +5,10 @@
     --branco-fundo:#F6F6E9;
 }
 
-body {
-  background-color: var(--verde-paginas);
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-
 header {
-    background-color: var(--verde-barra);
-    color: var(--verde-letras);
-    padding: 10px 20;
+   background-color: var(--verde-barra);
+   color: var(--verde-letras);
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -123,66 +113,108 @@ header {
     font-weight: bolder;
 }
 
-button:hover {
-  background-color: var(--verde-paginas);
-}
-
-main {
-  padding: 2rem;
-}
-
-section {
-  background-color: var(--verde-paginas);
-  border-radius: 10px;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
- img{
-    align-items:right;
-    max-width: 600px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-      border-radius: 15px;
- }
-
-h1{
+header button {
+    background-color: transparent;
+    border: none;
     color: var(--verde-letras);
-}
-h2 {
-  color: var(--verde-letras);
-}
-
-p {
-  line-height: 1.6;
-  color: var(--verde-letras);
-
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 10px;
+    border-radius: 5px;
 }
 
-.pastejo{
-    background: var(--verde-letras);
-
+ header button:hover {
+    background-color: var(--verde-paginas);
 }
 
-.seres{
-    background: linear-gradient(#9fc796, #749e6b);
-    background-size: cover;
-    font-weight: 100;
+header button.bio {
+    font-size: 34px;
+    font-weight: bold;
 }
 
-    .tabela_niveis{
-     background: linear-gradient(#89b280, #4d7444);
-     background-size: cover;
-     font-weight: 100;
+header button img {
+    width: 60px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tigre {
+    margin-left: 10px;
+}
+
+.boas_vindas img{
+    width: 130px 2px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #A3C1A8;
+    color: #2F4F31;
 }
 
 main {
+    text-align: center;
+    padding: 100px 20px;
     margin-top: 200px;
 }
 
-.logo_icone {
-    height: 80px;
-    width: 80px;
+h2 {
+    font-size: 100px;
+    color: #2F4F31;
+    margin-bottom: 10px;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: #2F4F31;
+    margin: 0 auto;
+    font-weight: 200;
+}
+
+p {
+    font-size: 18px;
+    background-color: #DDE3DB;
+    display: inline-block;
+    padding: 5px 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    box-shadow: 3px 3px #1c3620;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 21px;
+    color: #2F4F31;
+}
+
+button a {
+    background-color: var(--verde-letras);
+    color: white;
+    padding: 10px 5px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 3px 3px var(--branco-fundo);
+    text-decoration: none;
+    
+}
+
+
+button a:hover {
+    background-color: var(--verde-barra);
 }

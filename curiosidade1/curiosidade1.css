@@ -10,22 +10,68 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
 }
 
 header {
     background-color: var(--verde-barra);
     color: var(--verde-letras);
-    padding: 10px 20;
+    padding: 10px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+}
+
+header .Login img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+main {
+    padding: 2rem;
+    align-items: center;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px 0;
+    color: #31572C;
+    
+    padding-right: 2px;
+}
+
+main section {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    align-items: center;
+}
+
+main section h2 {
+    font-size: 1.5em;
+    margin-bottom: 100vh;
+    color: #31572C;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+main section p {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.primeira h2, .segunda h2, .terceira h2, .quarta h2, .quinta h2 {
+    background-color: #31572C;
+    color:#D4E9C0;
+    padding: 10px;
+    border-radius: 50%;
+    width: 40px;
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .conteudo {
@@ -129,6 +175,7 @@ button:hover {
 
 main {
   padding: 2rem;
+  align-items: center;
 }
 
 section {
@@ -139,50 +186,20 @@ section {
   text-align: center;
 }
 
- img{
-    align-items:right;
-    max-width: 600px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-      border-radius: 15px;
- }
-
-h1{
-    color: var(--verde-letras);
-}
 h2 {
   color: var(--verde-letras);
+  align-items: center;
 }
 
 p {
   line-height: 1.6;
-  color: var(--verde-letras);
-
+    color: var(--verde-letras);
 }
 
-.pastejo{
-    background: var(--verde-letras);
-
-}
-
-.seres{
-    background: linear-gradient(#9fc796, #749e6b);
-    background-size: cover;
-    font-weight: 100;
-}
-
-    .tabela_niveis{
-     background: linear-gradient(#89b280, #4d7444);
-     background-size: cover;
-     font-weight: 100;
-}
-
-main {
-    margin-top: 200px;
-}
-
-.logo_icone {
-    height: 80px;
-    width: 80px;
+img {
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+    border-radius: 15px;
 }

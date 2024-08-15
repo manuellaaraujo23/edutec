@@ -1,0 +1,152 @@
+:root{
+    --verde-barra:#8BAF83;
+    --verde-paginas:#A7C4A1;
+    --verde-letras:#31572C;
+    --branco-fundo:#F6F6E9;
+    --vermelho:#E24343;
+    --verde-acerto:#41B331;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #a4bf93;
+    color: #2a4232;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #a4bf93;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_icone img {
+    margin-right: 10px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #274828;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.pergunta h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.pergunta .progress {
+    width: 100%;
+    height: 10px;
+    background-color: var(--branco-fundo);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.pergunta .progress div {
+    width: 10%;
+    height: 100%;
+    background-color: var(--verde-letras);
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.alternativas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alternativas form {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.alternativas label  {
+    display: flex;
+    align-items: center;
+    background-color: var(--branco-fundo);
+    padding: 12px 25px;
+    border: 2px solid var(--vermelho);
+    border-radius: 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.alternativas label.correct {
+    border-color: #3eb04a;
+}
+
+.alternativas label.wrong {
+    border-color: #e63946;
+}
+
+.alternativas input[type="radio"] {
+    display: none;
+}
+
+.alternativas div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: var(--verde-letras);
+}
+
+.alternativas div span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.alternativas button {
+    background-color: var(--verde-letras);
+    color: var(--branco-fundo);
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.alternativas button:hover {
+    background-color: #0056b3;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-bar .progress {
+    height: 100%;
+    background-color: #4CAF50;
+    width: 15%; /* Define a largura da barra de progresso */
+    border-radius: 5px;
+    transition: width 0.5s ease; /* Adicione uma transição suave */
+  }
