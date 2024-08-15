@@ -49,8 +49,9 @@ main {
 }
 
 .pergunta h2 {
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    height: 60px;
 }
 
 .pergunta .progress {
@@ -87,7 +88,7 @@ main {
     display: flex;
     align-items: center;
     background-color: var(--branco-fundo);
-    padding: 12px 25px;
+    padding: 12px 30px;
     border: 2px solid var(--vermelho);
     border-radius: 30px;
     font-size: 18px;
@@ -124,15 +125,15 @@ main {
     background-color: var(--verde-letras);
     color: var(--branco-fundo);
     border: none;
-    padding: 1rem 2rem;
-    border-radius: 5px;
+    padding: 10px 250px;
+    border-radius: 15px;
     font-size: 1.2rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .alternativas button:hover {
-    background-color: #0056b3;
+    background-color: var(--verde-paginas);
 }
 
 .progress-bar {
@@ -146,7 +147,7 @@ main {
   .progress-bar .progress {
     height: 100%;
     background-color: #4CAF50;
-    width: 15%; /* Define a largura da barra de progresso */
+    width: 15%;
     border-radius: 5px;
-    transition: width 0.5s ease; /* Adicione uma transição suave */
+    transition: width 0.5s ease;
   }

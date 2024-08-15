@@ -14,7 +14,30 @@
 
 }
 
-c
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--verde-paginas);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(to bottom, #A7C4A1 70%, var(--branco-fundo) 20%);
+}
+
+header {
+    background-color: var(--verde-barra);
+    color: var(--verde-letras);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
 
 .conteudo {
     background-color:var(--verde-barra);
@@ -116,165 +139,89 @@ button {
     margin-left: 30px;
 }
 
-.botaodois_facil {
-    padding: 3px 30px;
-    height: 40px;
-    border: none;
-    border-radius: 10px;
-    background-color: var(--verde-letras);
-    color: var(--branco-fundo);
-    cursor: pointer;
-    transition: backgroud-color 0.3s, transform 0.2s;
-    
-    
-    
-    
-}
-
-.botaodois_facil:hover {
-    background-color: #8BAF83;
-}
-
-.botao_facil {
-    padding: 10px 20px;
-    height: 100px;
-    width: 100px;
-    font-size: 16px;
-    border-color: var(--verde-barra);
-    border-style: double;
-    border-radius: 30px;
-    background-color: var(--branco-fundo);
-    color: var(--verde-letras);
-    cursor: pointer;
-    transition: backgroud-color 0.3s, transform 0.2s;
-}
-
-.botao_facil:focus {
-    outline: none;
-}
-
-.botao_facil:active {
+.barra {
     background-color: var(--verde-barra);
-    transform: scale(0.98);
-}
-
-.botao_facil:hover {
-    background-color: var(--verde-barra);
-}
-
-.botaodois_medio {
-    padding: 3px 30px;
-    height: 40px;
-    border: none;
-    border-radius: 10px;
-    background-color: var(--verde-letras);
-    color: var(--branco-fundo);
-    cursor: pointer;
-    transition: backgroud-color 0.3s, transform 0.2s;
-}
-
-.botaodois_medio:hover {
-    background-color: #8BAF83;
-}
-
-.botao_medio {
-    padding: 10px 20px;
-    height: 100px;
-    width: 100px;
-    font-size: 16px;
-    border-color: var(--verde-barra);
-    border-style: double;
-    border-radius: 30px;
-    background-color: var(--branco-fundo);
-    color: var(--verde-letras);
-    cursor: pointer;
-    transition: backgroud-color 0.3s, transform 0.2s;
-}
-
-.botao_medio:focus {
-    outline: none;
-}
-
-.botao_medio:active {
-    background-color: var(--verde-barra);
-    transform: scale(0.98);
-}
-
-.botao_medio:hover {
-    background-color: var(--verde-barra);
-}
-
-.botaodois_dificil {
-    padding: 3px 30px;
-    height: 40px;
-    border: none;
-    border-radius: 10px;
-    background-color: var(--verde-letras);
-    color: var(--branco-fundo);
-    cursor: pointer;
-    transition: backgroud-color 0.3s, transform 0.2s;
-}
-
-.botaodois_dificil:hover {
-    background-color: #8BAF83;
-}
-
-
-.botao_dificil {
-    padding: 10px 20px;
-    height: 100px;
-    width: 100px;
-    font-size: 16px;
-    border-color: var(--verde-barra);
-    border-style: double;
-    border-radius: 30px;
-    background-color: var(--branco-fundo);
-    color: var(--verde-letras);
-    cursor: pointer;
-    transition: backgroud-color 0.3s, transform 0.2s;
-}
-
-.botao_dificil:focus {
-    outline: none;
-}
-
-.botao_dificil:active {
-    background-color: var(--verde-barra);
-    transform: scale(0.98);
-}
-
-.botao_dificil:hover {
-    background-color: var(--verde-barra);
-}
-
- 
-main {
-    margin-top: 200px;
+    padding: 5px;
     display: flex;
-    justify-content: center;
-    height: 40vh;
-}
-
-main.fundo {
-    background-color: var(--branco-fundo);
-    justify-content: center;
-    display: flex;
-    margin-top: 30px;
-    height: 30vh;
-}
-
-main.facil {
-    justify-content: center;
-    display: flex;
-}
-
-.quiz {
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo_icone img {
+    height: 50px;
+  }
+  
+  .barra button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .barra .Login img {
+    height: 0px;
+  }
+  
+  main {
     text-align: center;
-    display: flex;
-    justify-content: center;
-}
-
-.logo_icone img {
-    height: 80px;
-    width: 80px;
-}
+    padding: 65px;
+    margin-top: 100px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    color: var(--verde-letras);
+  }
+  
+  h4 {
+    font-size: 24px;
+    color: var(--branco);
+    margin-bottom: 40px;
+  }
+  
+  button {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    cursor: pointer;
+    margin: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+  }
+  
+  button img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .botaodois_facil a,
+  .botaodois_medio a,
+  .botaodois_dificil a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .botaodois_facil a:hover,
+  .botaodois_medio a:hover,
+  .botaodois_dificil a:hover {
+    color: #3d725c;
+  }
+  
+  .botao_facil img {
+    content: url('../../assets/images/nivel-facil.png');
+  }
+  
+  .botao_medio img {
+    content: url('../../assets/images/nivel-medio.png');
+  }
+  
+  .botao_dificil img {
+    content: url('../../assets/images/nivel-dificil.png');
+  }

@@ -20,6 +20,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100vh;
+}
+
+main {
+    text-align: center;
+}
+
+main h1 {
+    color: #3F5A42;
+    font-size: 32px;
+    margin-bottom: 20px;
 }
 
 h1 {
@@ -31,9 +42,34 @@ form {
     background-color: white;
     padding: 20px;
     border-radius: 30px;
-    box-shadow: 0 5px 5px;
     width: 300px;
     max-width: 90%;
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+}
+
+form .lupa img {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: 24px;
+    height: 24px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 15px 20px 15px 60px;
+    border-radius: 30px;
+    border: none;
+    font-size: 18px;
+    background-color: #F1ECD8;
+    color: #3F5A42;
+}
+
+form input[type="text"]::placeholder {
+    color: #8CA080;
 }
 
 .conteudo {
@@ -131,4 +167,18 @@ form {
 .email {
     height: 10px;
     width: 10px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email img {
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+}
+
+.email p {
+    font-size: 16px;
 }
