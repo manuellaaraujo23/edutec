@@ -139,4 +139,27 @@ div {
     justify-content: space-between;
 }
 
-c
+.bio a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}
+
+.conteudo a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}
+
+.jogos a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}
+
+.integrantes a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}
+
+.ajuda a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}

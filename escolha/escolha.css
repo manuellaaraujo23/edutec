@@ -181,59 +181,58 @@ header button img {
     color: var(--verde-letras);
     text-decoration: #3B543F;
 }
-
 main {
     display: flex;
-
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 150px;
     gap: 60px;
-    flex-direction: row-reverse ;
 }
 
 h1 {
     font-size: 2.5rem;
-    color: #000;
-    text-align: center;
+    color: var(--verde-letras);
+
+    font-family: "Playfair Display", serif;
 }
 
 section {
     display: flex;
     flex-direction: column;
-
     align-items: center;
     justify-content: center;
     gap: 20px;
     width: 300px;
-    height: 350px;
+    height: 320px;
     padding: 20px;
     border-radius: 20px;
-    background-color: #fff;
+    background-color: var(--branco-fundo);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    
 }
 
 section img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
 }
 
 section h2 {
     font-size: 1.5rem;
+    margin: 3px;
     font-weight: 600;
+    font-family: "Titillium Web", sans-serif;
 }
 
 section p {
     text-align: center;
     font-size: 1rem;
-    margin-bottom: 1px;
+    font-family: "Inter", sans-serif;
 }
 
 button {
     background-color: #000;
-    color: var(--branco-fundo);
+    color: var(--verde-letras);
     border: none;
     padding: 10px 20px;
     border-radius: 5px;

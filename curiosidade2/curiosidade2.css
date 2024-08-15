@@ -30,12 +30,6 @@ header {
     text-decoration: none;
 }
 
-header .Login img {
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-}
-
 header button {
     background-color: transparent;
     border: none;
@@ -52,9 +46,16 @@ button:hover {
     text-decoration: none;
 }
 
+header .Login img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
 main {
     padding: 2rem;
     align-items: center;
+    margin-top: 100px;
 }
 
 main h1 {
@@ -62,8 +63,8 @@ main h1 {
     font-size: 2.5em;
     margin: 20px 0;
     color: #31572C;
-    
     padding-right: 2px;
+    font-family: "Playfair Display", serif;
 }
 
 main section {
@@ -89,7 +90,7 @@ main section p {
     margin-bottom: 20px;
 }
 
-.primeira h2, .segunda h2, .terceira h2, .quarta h2 {
+.primeira h2, .segunda h2, .terceira h2, .quarta h2, .quinta h2 {
     background-color: #31572C;
     color:#D4E9C0;
     padding: 10px;
@@ -238,4 +239,3 @@ img {
     height: 80px;
     width: 80px;
 }
-
