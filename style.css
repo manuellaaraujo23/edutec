@@ -13,6 +13,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 }
 
 header {
@@ -26,6 +27,7 @@ header {
     top: 0;
     width: 100%;
     z-index: 1000;
+    text-decoration: none;
 }
 
 header button {
@@ -36,22 +38,26 @@ header button {
     cursor: pointer;
     margin: 0 10px;
     border-radius: 5px;
+    text-decoration: none;
+    font-family: "Titillium Web", sans-serif;
 }
 
 button:hover {
     background-color: var(--verde-paginas);
+    text-decoration: none;
 }
 
 header button.bio {
     font-size: 34px;
     font-weight: bold;
+    
 }
 
 header button img {
     width: 60px;
 }
 
-.container {
+.principal {
     display: flex;
     align-items: flex-start;
 }
@@ -81,6 +87,8 @@ header button img {
     align-items: start;
     text-align: flex-start;
     margin-top: 37px;
+    font-family: "Titillium Web", sans-serif;
+    
     
 }
 
@@ -89,7 +97,8 @@ header button img {
     font-size: 20px;
     line-height: 1.6;
     align-items: start;
-    padding-right: 2px;    
+    padding-right: 2px;
+    font-family: "Titillium Web", sans-serif;
 }
 
 
@@ -129,3 +138,5 @@ div {
     display: flex;
     justify-content: space-between;
 }
+
+c

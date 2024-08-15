@@ -43,22 +43,23 @@ main {
     margin-bottom: 26px;
     text-align: center;
     font-family: "Playfair Display", serif;
-
 }
 
 .pergunta .progress {
     width: 100%;
     height: 10px;
-    background-color: #e7f2e1;
+    background-color: var(--verde-hover);
     border-radius: 5px;
     margin-bottom: 20px;
     position: relative;
+    font-family: "Titillium Web", sans-serif;
+
 }
 
 .pergunta .progress div {
     width: 10%;
     height: 100%;
-    background-color: #274828;
+    background-color: var(--verde-letras);
     border-radius: 5px;
     position: absolute;
     left: 0;
@@ -83,7 +84,6 @@ main {
     margin-top: 0;
     z-index: 1000;
     margin-top: 14px;
-    font-family: "Titillium Web", sans-serif;
 }
 
 .pergunta .timer {
@@ -139,7 +139,7 @@ main {
     display: flex;
     align-items: center;
     width: 100%;
-    color: #274828;
+    color: var(--verde-letras);
 }
 
 .alternativas div span {
@@ -149,11 +149,11 @@ main {
 }
 
 .correct {
-    border: 3px solid #2e8434;
+    border: 3px solid var(--verde-acerto);
 }
 
 .incorrect {
-    border: 3px solid #e53935;
+    border: 3px solid var(--vermelho);
 }
 
 .alternativas button {
@@ -168,6 +168,7 @@ main {
     transition: all 0.3s ease;
     margin-top: 20px;
     width: 100%;
+    font-family: "Titillium Web", sans-serif;
 }
 
 .alternativas button:hover {

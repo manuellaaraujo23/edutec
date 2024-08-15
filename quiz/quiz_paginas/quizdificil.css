@@ -39,11 +39,10 @@ main {
 }
 
 .pergunta h2 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 26px;
     text-align: center;
     font-family: "Playfair Display", serif;
-
 }
 
 .pergunta .progress {
@@ -53,16 +52,18 @@ main {
     border-radius: 5px;
     margin-bottom: 20px;
     position: relative;
+    font-family: "Titillium Web", sans-serif;
 }
 
 .pergunta .progress div {
     width: 10%;
     height: 100%;
-    background-color: #274828;
+    background-color: var(--verde-letras);
     border-radius: 5px;
     position: absolute;
     left: 0;
     top: 0;
+    font-family: "Titillium Web", sans-serif;
 }
 
 .pergunta .timer {
@@ -73,6 +74,7 @@ main {
     border-radius: 30px;
     display: inline-block;
     margin-top: 10px;
+    font-family: "Titillium Web", sans-serif;
 }
 
 .pergunta {
@@ -121,6 +123,7 @@ main {
     font-size: 18px;
     cursor: pointer;
     transition: background-color 0.3s;
+
 }
 
 .alternativas label:hover {
@@ -168,6 +171,7 @@ main {
     transition: all 0.3s ease;
     margin-top: 20px;
     width: 100%;
+    font-family: "Titillium Web", sans-serif;
 }
 
 .alternativas button:hover {

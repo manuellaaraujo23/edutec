@@ -11,6 +11,7 @@
 }
 
 .conteudo {
+    font-family: Inter, light;
     background-color:var(--verde-barra);
     border: none;
     color: var(--verde-letras);
@@ -27,6 +28,7 @@
 }
 
 .jogos {
+    font-family: Inter, light;
     background-color: var(--verde-barra);
     border: none;
     color: var(--verde-letras);
@@ -43,6 +45,7 @@
 }
 
 .integrantes {
+    font-family: Inter,light;
     background-color: var(--verde-barra);
     border: none;
     color: var(--verde-letras);
@@ -59,6 +62,7 @@
 }
 
 .ajuda {
+    font-family: inter,light;
     background-color: var(--verde-barra);
     border: none;
     color: var(--verde-letras);
@@ -75,6 +79,7 @@
 }
 
 .Login {
+    font-family: inter,light;
     background-color: var(--verde-barra);
     border: 10px;
     color: var(--verde-letras);
@@ -100,6 +105,7 @@ header .logo_icone img {
 }
 
 .bio{
+    font-family: inter,light;
     background-color: var(--verde-barra);
     border: 10px;
     color: var(--verde-letras);
@@ -121,18 +127,19 @@ button {
 
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Playflair Display', regular;
     background-color: var(--verde-paginas);
   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 200vh;
+    height: 80vh;
    
 }
 
 header {
+    font-family: Inter,light;
     width: 100%;
     background-color: var(--verde-barra);
     color: var(--verde-letras);
@@ -144,6 +151,7 @@ header {
 }
 
 header button {
+    font-family: inter,light;
     background-color: transparent;
     border: none;
     color: var(--branco-fundo);
@@ -161,6 +169,7 @@ header .Login img {
 }
 
 main {
+    
     background-color: var(--verde-paginas);
     padding: 40px;
 
@@ -171,25 +180,23 @@ main {
 }
 
 h1 {
+    font-family: Playfair Display, regular;
     font-size: 24px;
     color: #3c6e47;
     margin-bottom: 10px;
 }
 
 p {
+    font-family: Inter, semi bold;
     font-size: 14px;
     color: #3c6e47;
     margin-bottom: 20px;
 }
 
-form {
-    margin: 0 auto; /* Centraliza o formulário */
-    padding: 0; /* Remove qualquer padding */
-    max-width: 400px; /* Define uma largura máxima para o formulário */
-}
 
 
 form {
+    font-family: Inter, light;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -198,6 +205,7 @@ form {
 
 form input[type="text"],
 form input[type="password"] {
+    font-family: Inter,light;
     width: 100%;
     padding: 10px;
     margin: 5px 0 15px 0;
@@ -210,6 +218,7 @@ form input[type="checkbox"] {
 }
 
 form button {
+    font-family: inter, light;
     background-color: #3c6e47;
     color: white;
     padding: 10px;
@@ -227,16 +236,19 @@ form button:hover {
 
 
 .cadastro {
+    font-family: inter, light;
     margin-top: 20px;
 }
 
 .cadastro p {
+    font-family: inter, light;
     margin-bottom: 10px;
     font-size: 14px;
     color: #3c6e47;
 }
 
 .cadastro button {
+    font-family: inter, light;
     background-color: var(--verde-letras);
     color: white;
     padding: 10px;
@@ -252,17 +264,10 @@ form button:hover {
     opacity: 0.9;
 }
 
-.container {
-    display: flex;
-    align-items: center; /* Alinha verticalmente ao centro */
-}
 
-.container img {
-    max-width: 300px; /* Define um tamanho máximo para a imagem */
-    margin-right: 20px; /* Espaço entre a imagem e o texto */
-}
 
 .text {
+    font-family: inter,light;
     max-width: 600px;
 }
 

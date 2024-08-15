@@ -137,17 +137,24 @@ h1{
     font-size: 34px;
     padding-right: 2px;
     align-items: center;
+    font-family: "Playfair Display", serif;
 
 }
 h2 {
   color: var(--verde-letras);
   align-items: center;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 
 p {
   line-height: 1.6;
     color: var(--verde-letras);
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 img {
@@ -155,25 +162,52 @@ img {
   height: auto;
   display: block;
   margin: 0 auto;
-    border-radius: 15px;
+border-radius: 15px;
 }
 
-    .pastejo{
-        background: linear-gradient(#9fc796, #749e6b);
-        background-size: cover;
-        font-weight: 100;
+.pastejo{
+    background: linear-gradient(#9fc796, #749e6b);
+    background-size: cover;
+    font-weight: 100;
+}
 
-    }
+.detritos{
+    background: linear-gradient(#9fc796, #749e6b);
+    background-size: cover;
+    font-weight: 100;
+}
 
-    .detritos{
-        background: linear-gradient(#9fc796, #749e6b);
-        background-size: cover;
-        font-weight: 100;
-    }
+.exemplo{
+    background: linear-gradient(#9fc796, #749e6b);
+    background-size: cover;
+    font-weight: 100;
+}
+.logo_icone img {
+    height: 80px;
+    width: 80px;
+}
 
-    .exemplo{
-        background: linear-gradient(#9fc796, #749e6b);
-        background-size: cover;
-        font-weight: 100;
-    }
+.bio a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}
 
+.conteudo a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}
+
+.jogos a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}
+
+.integrantes a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}
+
+.ajuda a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}

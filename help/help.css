@@ -16,15 +16,15 @@ body {
 header {
     background-color: var(--verde-barra);
     color: var(--verde-letras);
-    padding: 10px 0;
+    padding: 10px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
 }
 
 main {
     text-align: center;
+    margin-top: 100px;
 }
 
 main h1 {
@@ -39,19 +39,21 @@ h1 {
 }
 
 form {
-    background-color: white;
     padding: 20px;
+    border-bottom: none;
     border-radius: 30px;
     width: 300px;
     max-width: 90%;
     position: relative;
     width: 80%;
     max-width: 600px;
+    text-align: center;
 }
 
 form .lupa img {
     position: absolute;
     top: 50%;
+    align-items: center;
     left: 20px;
     transform: translateY(-50%);
     width: 24px;
@@ -117,6 +119,7 @@ form input[type="text"]::placeholder {
 
 .integrantes:hover {
     background-color: var(--verde-paginas);
+    border-radius: 5px;
 }
 
 .ajuda {
@@ -128,6 +131,7 @@ form input[type="text"]::placeholder {
     font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .ajuda:hover {
@@ -181,4 +185,34 @@ form input[type="text"]::placeholder {
 
 .email p {
     font-size: 16px;
+}
+
+.logo_icone img {
+    height: 80px;
+    width: 80px;
+}
+
+.bio a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}
+
+.conteudo a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}
+
+.jogos a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}
+
+.integrantes a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
+}
+
+.ajuda a {
+    color: var(--verde-letras);
+    text-decoration: #3B543F;
 }
